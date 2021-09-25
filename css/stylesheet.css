@@ -30,10 +30,20 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.container .flex {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    /* min-height: 100vh; */
 }
 
 .container .content {
