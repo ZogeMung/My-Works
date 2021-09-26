@@ -9,69 +9,22 @@
     <!--<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="css/stylesheet.css">
     <!--<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
-    <!--<script src="js/javascript.js"></script>-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.0-beta.7/vue.global.prod.min.js"></script>
+    <script src="js/javascript.js"></script>
 </head>
 
-<body>
+<body onload="vuestart();">
     <div class="navigation">
         <span>My Works (Sort by date(desc))</span>
     </div>
     <div class="container">
-        <div class="flex">
-            <div class="content">
+        <div id="files" class="flex">
+            <div class="content" v-for="item in items">
                 <div class="title">
-                    <span>Never Let You Go</span>
+                    <span>{{item.title}}</span>
                 </div>
                 <div class="file">
-                    <audio src="works/NeverLetYouGo.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>冬日里的一棵树</span>
-                </div>
-                <div class="file">
-                    <audio src="works/冬日里的一棵树.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>时间缝隙</span>
-                </div>
-                <div class="file">
-                    <audio src="works/时间缝隙.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>那么奇怪（马蒂尼）</span>
-                </div>
-                <div class="file">
-                    <audio src="works/那么奇怪.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>你不在北京</span>
-                </div>
-                <div class="file">
-                    <audio src="works/你不在北京.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>醒</span>
-                </div>
-                <div class="file">
-                    <audio src="works/醒.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
-                </div>
-            </div>
-            <div class="content">
-                <div class="title">
-                    <span>何须问</span>
-                </div>
-                <div class="file">
-                    <audio src="works/何须问.mp3" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
+                    <audio :src="inl + item.filename + outl" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
                 </div>
             </div>
         </div>
