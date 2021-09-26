@@ -2,7 +2,7 @@ function vuestart() {
     Vue.createApp({
         data() {
             return {
-                inl: 'https://gitee.com/zogemung/My-Works/blob/master/works/',
+                inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
                 outl: '.mp3',
                 items: [{
                         title: 'Never Let You Go',
