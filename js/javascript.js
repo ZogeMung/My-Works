@@ -4,7 +4,12 @@ function vuestart() {
             return {
                 inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
                 outl: '.mp3',
-                items: [{
+                items: [
+                    {
+                        title: '躲藏',
+                        filename: '躲藏'
+                    },
+                    {
                         title: 'Never Let You Go',
                         filename: 'NeverLetYouGo'
                     },
