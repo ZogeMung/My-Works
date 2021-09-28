@@ -6,6 +6,10 @@ function vuestart() {
                 outl: '.mp3',
                 items: [
                     {
+                        title: '痴心者',
+                        filename: '痴心者'
+                    },
+                    {
                         title: '躲藏',
                         filename: '躲藏'
                     },
