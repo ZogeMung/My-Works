@@ -4,8 +4,7 @@ function vuestart() {
             return {
                 inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
                 outl: '.mp3',
-                items: [
-                    {
+                items: [{
                         title: '痴心者',
                         filename: '痴心者'
                     },
@@ -43,6 +42,14 @@ function vuestart() {
                     }
                 ]
             }
-        }
+        },
+        methods: ({
+            pauseOther(index) {
+                var audios = document.getElementsByTagName("audio");
+                for (let i = 0; i < audios.length; i++) {
+                    i !== index && audios[i].pause();
+                }
+            }
+        })
     }).mount('#files')
 }

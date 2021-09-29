@@ -8,7 +8,7 @@
     <title>My Works</title>
     <!--<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="css/stylesheet.css">
-    <!--<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.0-beta.7/vue.global.prod.min.js"></script>
     <script src="js/javascript.js"></script>
 </head>
@@ -19,12 +19,12 @@
     </div>
     <div class="container">
         <div id="files" class="flex">
-            <div class="content" v-for="item in items">
+            <div class="content" v-for="(item, index) in items">
                 <div class="title">
                     <span>{{item.title}}</span>
                 </div>
                 <div class="file">
-                    <audio :src="inl + item.filename + outl" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
+                    <audio :src="inl + item.filename + outl" @play="pauseOther(index)" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
                 </div>
             </div>
         </div>
