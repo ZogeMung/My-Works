@@ -5,9 +5,14 @@ function vuestart() {
                 inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
                 outl: '.mp3',
                 items: [{
+                        title: '虹',
+                        filename: '虹'
+                    },
+                    {
                         title: '领航员',
                         filename: '领航员'
-                    }, {
+                    },
+                    {
                         title: '痴心者',
                         filename: '痴心者'
                     },
