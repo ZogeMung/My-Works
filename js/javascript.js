@@ -5,6 +5,10 @@ function vuestart() {
                 inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
                 outl: '.mp3',
                 items: [{
+                        title: '时光洪流',
+                        filename: '时光洪流'
+                    },
+                    {
                         title: '虹',
                         filename: '虹'
                     },
