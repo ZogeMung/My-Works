@@ -21,7 +21,7 @@
         <div id="files" class="flex">
             <div class="content" v-for="(item, index) in items">
                 <div class="title">
-                    <span>{{item.title}}</span>
+                    <span>{{item.artist}} - {{item.title}}</span>
                 </div>
                 <div class="file">
                     <audio :src="inl + item.filename + outl" @play="pauseOther(index)" controls preload="metadata">您的浏览器不支持 audio 标签。</audio>
