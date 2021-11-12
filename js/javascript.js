@@ -2,7 +2,7 @@ function vuestart() {
     Vue.createApp({
         data() {
             return {
-                inl: 'https://raw.staticdn.net/ZogeMung/My-Works/master/works/',
+                inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
                         title: '时光洪流',
