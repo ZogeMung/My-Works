@@ -37,13 +37,11 @@ body {
 }
 
 .container .flex {
-    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
-    /* min-height: 100vh; */
 }
 
 .container .content {
