@@ -21,7 +21,7 @@ body {
 }
 
 .navigation span {
-    font-size: 1.5rem;
+    font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 4px #333;
     color: #121212;
@@ -51,14 +51,14 @@ body {
 }
 
 .container .content .title {
-    font-size: 1rem;
+    font-size: 18px;
     margin: 15px;
     color: #534;
 }
 
 .copyright {
     color: #999;
-    font-size: .9rem;
+    font-size: 14px;
     white-space: nowrap;
     display: -webkit-flex;
     display: flex;
