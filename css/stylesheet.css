@@ -6,6 +6,8 @@
 body {
     background-color: #fffffa;
     min-width: 450px;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .navigation {
