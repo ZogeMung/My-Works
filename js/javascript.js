@@ -5,6 +5,10 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        title: '漂亮话',
+                        filename: '漂亮话'
+                    },
+                    {
                         artist: '程响',
                         title: '时光洪流',
                         filename: '时光洪流'
