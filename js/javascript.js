@@ -2,7 +2,7 @@ function vuestart() {
     Vue.createApp({
         data() {
             return {
-                inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
+                inl: 'http://r7r2t9gs4.bkt.clouddn.com/myworks/',
                 outl: '.mp3',
                 items: [{
                         artist: '朴树',
