@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '爱朵女孩',
+                        title: '爱情爱情',
+                        filename: '爱情爱情'
+                    },
+                    {
                         artist: '朴树',
                         title: '清白之年',
                         filename: '清白之年'
