@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '讲究制噪/DJ Baker/CRAT',
+                        title: '福禄寿禧',
+                        filename: '福禄寿禧'
+                    },
+                    {
                         artist: '爱朵女孩',
                         title: '爱情爱情',
                         filename: '爱情爱情'
