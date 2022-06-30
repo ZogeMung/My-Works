@@ -75,7 +75,7 @@ function vuestart() {
                     },
                     {
                         artist: 'OM BAND',
-                        title: '那么奇怪（马蒂尼）',
+                        title: '马蒂尼',
                         filename: '那么奇怪'
                     },
                     {
