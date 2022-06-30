@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '鲸鱼马戏团',
+                        title: '鳗鱼饭之味',
+                        filename: '鳗鱼饭之味'
+                    },
+                    {
                         artist: '苟亮',
                         title: '那时候',
                         filename: '那时候'
