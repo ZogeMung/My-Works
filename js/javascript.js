@@ -76,7 +76,7 @@ function vuestart() {
                     {
                         artist: 'OM BAND',
                         title: '马蒂尼',
-                        filename: '那么奇怪'
+                        filename: '马蒂尼'
                     },
                     {
                         artist: '曹轩宾',
