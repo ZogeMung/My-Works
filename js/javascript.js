@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '苟亮',
+                        title: '那时候',
+                        filename: '那时候'
+                    },
+                    {
                         artist: '孟楠',
                         title: '痒2018',
                         filename: '痒2018'
