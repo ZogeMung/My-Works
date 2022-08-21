@@ -2,7 +2,7 @@ function vuestart() {
     Vue.createApp({
         data() {
             return {
-                inl: './works/',
+                inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
                         artist: '鲸鱼马戏团',
