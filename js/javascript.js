@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '马梓皓',
+                        title: '好好抱你',
+                        filename: '好好抱你'
+                    },
+                    {
                         artist: '鲸鱼马戏团',
                         title: '鳗鱼饭之味',
                         filename: '鳗鱼饭之味'
