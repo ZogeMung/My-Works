@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '陈小满',
+                        title: '离开鱼的水',
+                        filename: '离开鱼的水.mp3'
+                    },
+                    {
                         artist: '半生瓜/皮特',
                         title: '陪你到爱的边境',
                         filename: '陪你到爱的边境.mp3'
