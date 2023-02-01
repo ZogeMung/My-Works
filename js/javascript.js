@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: '皮特/半生瓜',
+                        title: '盛世',
+                        filename: '盛世.mp3'
+                    },
+                    {
                         artist: '魔动闪霸',
                         title: '魔毯',
                         filename: '魔毯.mp3'
