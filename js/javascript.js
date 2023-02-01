@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: 'Bryce Drew',
+                        title: 'Lucky Number',
+                        filename: 'Lucky Number.mp3'
+                    },
+                    {
                         artist: 'BLACK 0/Futo./CEM Records',
                         title: '滇人菇事',
                         filename: '滇人菇事.mp3'
