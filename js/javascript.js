@@ -5,6 +5,11 @@ function vuestart() {
                 inl: 'https://cdn.jsdelivr.net/gh/ZogeMung/My-Works/works/',
                 outl: '.mp3',
                 items: [{
+                        artist: 'BLACK 0/Futo./CEM Records',
+                        title: '滇人菇事',
+                        filename: '滇人菇事.mp3'
+                    },
+                    {
                         artist: 'CAC阿卡贝拉人生社团',
                         title: '啊！',
                         filename: '啊！.mp3'
