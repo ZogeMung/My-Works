@@ -7,46 +7,46 @@ function vuestart() {
                 items: [{
                         artist: '王天戈',
                         title: '开心',
-                        filename: '开心.mp3'
+                        filename: '开心'
                     },
                     {
                         artist: '陈小满',
                         title: '离开鱼的水',
-                        filename: '离开鱼的水.mp3'
+                        filename: '离开鱼的水'
                     },
                     {
                         artist: '半生瓜/皮特',
                         title: '陪你到爱的边境',
-                        filename: '陪你到爱的边境.mp3'
+                        filename: '陪你到爱的边境'
                     },
                     {
                         artist: '皮特/半生瓜',
                         title: '盛世',
-                        filename: '盛世.mp3'
+                        filename: '盛世'
                     },
                     {
                         artist: '魔动闪霸',
                         title: '魔毯',
-                        filename: '魔毯.mp3'
+                        filename: '魔毯'
                     },
                     {
                         title: '孤勇者·改',
-                        filename: '孤勇者.mp3'
+                        filename: '孤勇者'
                     },
                     {
                         artist: 'Bryce Drew',
                         title: 'Lucky Number',
-                        filename: 'Lucky Number.mp3'
+                        filename: 'Lucky Number'
                     },
                     {
                         artist: 'BLACK 0/Futo./CEM Records',
                         title: '滇人菇事',
-                        filename: '滇人菇事.mp3'
+                        filename: '滇人菇事'
                     },
                     {
                         artist: 'CAC阿卡贝拉人生社团',
                         title: '啊！',
-                        filename: '啊！.mp3'
+                        filename: '啊！'
                     },
                     {
                         artist: '马梓皓',
